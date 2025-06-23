@@ -1,32 +1,31 @@
-let screen = document.getElementById('screen');
+// Select the display and all buttons
+let display = document.getElementById('display');
+let buttons = Array.from(document.getElementsByClassName('button'));
 
-let click = Array.from(document.getElementsByClassName('click'));
+// Add click event to each button
+buttons.forEach(button => {
+  button.addEventListener('click', (e) => {
+    const value = e.target.innerText;
 
-console.log(click);
+    switch (value) {
+      case 'C':
+        display.innerText = '';
+        break;
 
-click.map(buttons => {
-    button.addEventListener('click', (a) => {
-        switch(a.target.innerText)
-        {
-            case 'C':
-                screen.innerHTML='';
-                break;
-            case '←':
-                if(screen.innerText)
-                {
-                    screen.innerText = screen.innerText.slice(0, -1);
-                }
-                break;
-            case '=':
-                try{
-                    screen.innerText = eval(screen.innerText);
-                }
-                catch{
-                    screen.innerText = 'Error';
-                }
-                break;
-            default:
-                screen.innerText += a.target.innerText;
+      case '←':
+        display.innerText = display.innerText.slice(0, -1);
+        break;
+
+      case '=':
+        try {
+          display.innerText = eval(display.innerText);
+        } catch {
+          display.innerText = 'Error';
         }
-    })
-})
+        break;
+
+      default:
+        display.innerText += value;
+    }
+  });
+});
