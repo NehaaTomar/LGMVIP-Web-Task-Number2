@@ -1,23 +1,44 @@
-# LGMVIP-Web-Task-Number2
-#App Calculator
+# 🧮 Calculator App  
+### ⚡ LGMVIP Web Development Task – 2
 
-This is a straightforward JavaScript, HTML, and CSS calculator application.
+A responsive and simple web-based **Calculator App** built using **HTML, CSS, and JavaScript**.  
+It performs all basic arithmetic operations and adapts beautifully across devices.
 
-## Features
+🌐 **Live Demo**: [Click to Use Calculator](https://nehaatomar.github.io/LGMVIP-Web-Task-Number2/)
 
-- Addition, subtraction, multiplication, and division are the fundamental mathematical operations.
-To reset the calculator, press the Clear button.
-- Design that adapts to different screen sizes.
+---
 
-## How to Apply
+## 📸 Preview
 
-1. Use `git clone https://github.com/your-username/calculator-app.git` to clone the repository.
-2. Launch the webpage `index.html` in your browser.
-
-## Application
-
-- To enter numbers and operators, click the buttons.
-- Press "=" to view the outcome.
-- Press "C" to remove the input.
+![Calculator Screenshot](https://user-images.githubusercontent.com/00000000/00000000-00000000-0000-000000000000.png)  
 
 
+---
+
+## 💡 Features
+
+- ➕ Addition  
+- ➖ Subtraction  
+- ✖️ Multiplication  
+- ➗ Division  
+- 🔁 Clear/Reset functionality  
+- 📱 Fully responsive design — mobile & tablet ready  
+- 🎯 Intuitive button-based input
+
+---
+
+## 🛠️ Tech Stack
+
+| HTML5 | CSS3 | JavaScript |
+|:-----:|:----:|:----------:|
+| 🧱    | 🎨   | ⚙️         |
+
+---
+
+## 🚀 Getting Started
+
+To run the app locally:
+
+```bash
+git clone https://github.com/NehaaTomar/LGMVIP-Web-Task-Number2.git
+cd LGMVIP-Web-Task-Number2
