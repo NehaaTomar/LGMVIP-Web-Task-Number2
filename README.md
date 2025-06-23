@@ -10,7 +10,7 @@ It performs all basic arithmetic operations and adapts beautifully across device
 
 ## 📸 Preview
 
-![Calculator Screenshot](https://user-images.githubusercontent.com/00000000/00000000-00000000-0000-000000000000.png)  
+![Calculator Screenshot](Calculator.jpg)  
 
 
 ---
